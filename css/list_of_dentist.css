@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #aeedfa1d;
+}
+.container {
+  max-width: 1360px;
+  width: 100%;
+  margin: auto;
+}
+
+.search__block {
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search__h1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #3a5f62;
+  text-align: center;
+  margin-top: 44px;
+}
+
+/*CHECKBOX*/
+.search__choice {
+  max-width: 1020px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 120px auto;
+}
+.choice__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+  margin-right: 34px;
+}
+.choice {
+  background: #ffffff;
+  border: 1px solid #b0b0b0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.choice__p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c1c1c1;
+}
+/*BLOCK__2*/
+.dentists {
+  max-width: 1360px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d1d1d1;
+  background-color: #fff;
+  border-radius: 58px;
+  margin-top: 64px;
+}
+.dentists__clinic__logo {
+  max-width: 874px;
+  width: 100%;
+  border-right: 1px solid #d1d1d1;
+}
+.dentists__img__text {
+  margin-left: 24px;
+}
+
+.photo__dentists__about {
+  display: flex;
+  margin-top: 52px;
+}
+.logo__text__p {
+  /*BLOCK__2*/
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #898989;
+  max-width: 500px;
+  width: 100%;
+  margin-top: 20px;
+}
+.text__star {
+  display: flex;
+  margin-top: 26px;
+}
+.text__star__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 8px;
+  margin-left: 40px;
+}
+.dentists__comment__p {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #355fca;
+  margin-bottom: 64px;
+}
+.dentists__comment__p__img {
+  margin-left: 10px;
+}
+.about__dentists {
+  margin-left: 20px;
+}
+.about__dentists__h1 {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  color: #000000;
+  margin: 16px 0;
+}
+.about__dentists__p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #919191;
+  margin-bottom: 14px;
+}
+.about__dentists__a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #919191;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.about__dentists__a:hover {
+  border-bottom: 2px solid #919191;
+}
+.dentists__location {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+.dentists__location__p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #909090;
+}
+.dentists__map {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.dentists__map__icon {
+  margin-right: 10px;
+}
+.dentists__map__a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #909090;
+  transition: all .3s;
+}
+.dentists__map__a:hover{
+border-bottom: 2px solid #909090;
+}
+
+/**/
+.appointment {
+    max-width: 480px;
+    width: 100%;
+    padding: 46px 0 0 30px;
+  }
