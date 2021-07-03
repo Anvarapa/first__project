@@ -149,11 +149,11 @@ body {
   align-items: center;
   margin-top: 14px;
 }
-.dentists__location__p{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: #909090;
+.dentists__location__p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #909090;
 }
 .dentists__map {
   display: flex;
@@ -169,15 +169,173 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #909090;
-  transition: all .3s;
+  transition: all 0.3s;
 }
-.dentists__map__a:hover{
-border-bottom: 2px solid #909090;
+.dentists__map__a:hover {
+  border-bottom: 2px solid #909090;
+}
+.dentists__help__choice{
+  margin-left: 20px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.cansultation__button{
+  max-width: 200px;
+  width: 100%;
+  height: 44px;
+  background: none;
+  border-radius: 64px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.appointment__button{
+  max-width: 200px;
+  width: 100%;
+  height: 44px;
+  border-radius: 64px;
+  border: none;
+  background-color:#99E4EA;
+  cursor: pointer;
 }
 
-/**/
+ 
+
+/*appointment*/
 .appointment {
-    max-width: 480px;
+  max-width: 480px;
+  width: 100%;
+  padding: 46px 30px 0 30px;
+  text-align: center;
+}
+.appointment__week {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 380px;
+  width: 100%;
+}
+.button__left__right{
+  cursor: pointer;
+}
+.appointment__links {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  color: #bdbdbd;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.appointment__links:hover{
+    color: #000;
+}
+/*busy__button && not__busy__button*/
+.appointment__buttons__blocks{
+  display: flex;
+  max-width: 400px;
+  width: 100%;
+}
+.appointment__buttons{
+    max-width: 200px;
     width: 100%;
-    padding: 46px 0 0 30px;
-  }
+    margin: 0 auto;
+    margin-top: 24px;
+    padding-top: 10px;
+    
+}
+.appointment__buttons:last-child{
+  border-left: 1.5px solid #ACABAB;
+}
+.appointment__buttons__flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.not__busy__button{
+    width: 60px;
+    height: 28px;
+    background-color:#5EACF3;
+    border-radius: 17px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.busy__button{
+    width: 60px;
+    height: 28px;
+    background-color:#dd5454a1;
+    border-radius: 17px;
+    color: #fff;
+    cursor: pointer;
+   border: none;
+}
+.busy__button:first-child, .not__busy__button:first-child{
+margin-right: 20px ;
+}
+.blue{
+  width: 16px;
+  height: 16px;
+  background-color: #5EACF3;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.red{
+  width: 16px;
+  height: 16px;
+  background-color: #F76666;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.span__color__blue{
+  color: #5EACF3;
+}
+.span__color__red{
+  color: #F76666;
+}
+.warning__blue{
+  margin-right: 50px;
+}
+.warning__flex{
+  display: flex;
+}
+.warning__blue__red{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.show__more{
+  max-width: 202px;
+  width: 100%;
+  height: 44px;
+  background-color: #99E4EA;
+  border-radius: 28px;
+  margin-top: 22px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

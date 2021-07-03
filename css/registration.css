@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  background: url(../img/registration__background__img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1360px;
+  width: 100%;
+  margin: auto;
+  padding-top: 30px;
+}
+.registration {
+  max-width: 552px;
+  width: 100%;
+  height: 680px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+.registration__logo {
+  max-width: 134px;
+  height: 130px;
+  margin: auto;
+}
+.registration__h1 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #434242;
+  text-align: center;
+}
+/*поля для ввода данных при регистрации */
+.registration__input__button {
+  max-width: 490px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 45px;
+}
+.registration__input {
+  max-width: 438px;
+  width: 100%;
+  height: 50px;
+  background: url(../img/registration__password__check__icon.svg) no-repeat scroll 410px 18px;
+  border: none;
+  border-bottom: 2px solid #4370cc;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  outline: none;
+}
+.registration__input:first-child{
+   background: none;
+}
+/*Кнопка для регистрации*/
+.registration__button {
+  max-width: 490px;
+  width: 100%;
+  height: 60px;
+  background: #4370cc;
+  border-radius: 53px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.registrtion__h1 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6b6b6b;
+  margin: 10px 0;
+}
+.from__google{
+    background: #84A8F1;
+    margin-top: 0;
+    
+}
+.bottom__text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+  margin: auto;
+  margin-top: 20px;
+}
+.red__line__block{
+  width: 12px;
+  height: 58px;
+  background-color: #E52E2E;
+}
+.bottom__p{
+  font-size: 12px;
+line-height: 14px;
+}
