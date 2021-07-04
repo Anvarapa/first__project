@@ -16,31 +16,27 @@
       <!--BLOCK__1-->
       <div class="search__block">
         <h1 class="search__h1">Запишитесь на приём к врачу онлайн</h1>
-        <div class="search__choice">
-          <div class="choice__block">
-            <input class="choice" type="checkbox" />
-            <p class="choice__p">По рейтингу</p>
+        <div class="category__search">
+          <div class="category__filter">
+            <div class="filter">
+              <button class="button__filter_category"><img src="./img/filter__search__button.svg" alt="">Фильтры</button>
+              <div class="filter__button__icon">
+                <input class="input__filter__category" type="text" placeholder="По умолчанию">
+                <button class="input__filter__icon"><img src="./img/category__filter.svg" alt=""></button>
+              </div>
+            </div>
+            <div class="category">
+              <button class="button__filter_category"><img src="./img/filter__search__button.svg" alt="">Категории</button>
+              <div class="filter__button__icon">
+              <input class="input__filter__category" type="text" placeholder="По умолчанию">
+              <button class="input__filter__icon"><img src="./img/category__filter.svg" alt=""></button>
+            </div>
+            </div>
           </div>
-          <div class="choice__block">
-            <input class="choice" type="checkbox" />
-            <p class="choice__p">По близости</p>
-          </div>
-          <div class="choice__block">
-            <input class="choice" type="checkbox" />
-            <p class="choice__p">Государственные клиники</p>
-          </div>
-          <div class="choice__block">
-            <input class="choice" type="checkbox" />
-            <p class="choice__p">Частные клиники</p>
-          </div>
-          <div class="choice__block">
-            <input class="choice" type="checkbox" />
-            <p class="choice__p">Открытые</p>
-          </div>
-          <div class="choice__block">
-            <input class="choice" type="checkbox" />
-            <p class="choice__p">Круглосуточные</p>
-          </div>
+          <div class="search__input__button">
+          <input class="input__search" type="search" placeholder="Клиники" />
+          <button class="search__button">Поиск</button>
+        </div>
         </div>
       </div>
       <!--BLOCK__2-->
@@ -84,7 +80,9 @@
                 </div>
               </div>
               <div class="dentists__help__choice">
+                <div class="like__icon">
                 <img src="./img/like__icon.svg" alt="">
+              </div>
                 <button class="cansultation__button">Проконсультироваться</button>
                 <button class="appointment__button">Записаться онлайн</button>
               </div>

@@ -245,3 +245,91 @@ body {
 }
 
 /*ADAPTIVE__WEB__SITE*/
+
+  @media(max-width:1190px){
+    .category__search{
+      flex-direction: column;
+    }
+  }
+@media(max-width:860px){
+  .avicena__clinic{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .logo__text{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .text__star{
+    justify-content: center;
+  }
+  .logo__text__h1{
+    text-align: center;
+  }
+  .logo__img__text{
+    margin: auto;
+  }
+  .text__star__text{
+    margin-left: 0;
+  }
+  .location__container{
+    justify-content: center;
+    align-items: center;
+  }
+  .location__clock:last-child{
+    margin-top: 10px;
+  }
+  .avicena__clinic__location{
+    padding: 0;
+    margin-left: 100px;
+  }
+  .logo__text__p{
+    margin: auto;
+    padding-left: 20px;
+  }
+}
+@media(max-width:600px){
+  .category__filter{
+    flex-direction: column;
+  }
+  .filter{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .logo__text__p{
+    font-size: 15px;
+  }
+  .logo__text__h1{
+    font-size: 26px;
+  }
+  .avicena__clinic__location{
+    margin-left: 0px;
+  }
+  .location__clock,.map,.location__clock{
+    font-size: 2px;
+  }
+  .search__button{
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .last__button{
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

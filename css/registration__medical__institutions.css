@@ -127,7 +127,28 @@
   }
   
   
-  
+  @media(max-width:640px) {
+    .full__name{
+      flex-direction: column;
+      margin-top: 10px;
+    }
+    .full__name__input{
+      margin: auto;
+      margin-bottom: 15px;
+    }
+    .password__check{
+      margin: auto;
+    
+    }
+    .dentist__registration{
+      margin-bottom: 30px;
+    }
+  }
+  @media(max-width:420px){
+    .dentist__registration{
+      padding: 25px 62px 23px 88px;
+    }
+  }
   
   
   
