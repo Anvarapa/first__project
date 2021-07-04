@@ -1,120 +1,89 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  
 }
-body {
-  height: 100vh;
-  background: url(../img/registration__background__img.jpg);
-  background-size: cover;
+.login {
+  background-image: url(../image/reg.svg);
+  background-size: 100%;
   background-repeat: no-repeat;
+  padding: 196px 0 296px 0;
+  height: auto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
-.container {
-  max-width: 1360px;
-  width: 100%;
-  margin: auto;
-  padding-top: 30px;
-}
-.registration {
-  max-width: 552px;
-  width: 100%;
-  height: 680px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-}
-.registration__logo {
-  max-width: 134px;
-  height: 130px;
-  margin: auto;
-}
-.registration__h1 {
-  font-size: 24px;
-  line-height: 28px;
-  color: #434242;
-  text-align: center;
-}
-/*поля для ввода данных при регистрации */
-.registration__input__button {
+.login__container {
   max-width: 490px;
   width: 100%;
-  margin: auto;
-  text-align: center;
-  margin-top: 45px;
+  margin: 0 auto;
 }
-.registration__input {
-  max-width: 438px;
-  width: 100%;
-  height: 50px;
-  border: none;
-  border-bottom: 2px solid #4370cc;
-  font-size: 12px;
-  line-height: 14px;
-  color: #333333;
-  outline: none;
+.login__content{
+text-align: center;
 }
-.registration__input:first-child {
-  background: none;
+.login__email{
+    margin-top: 68px;
 }
-/*Кнопка для регистрации*/
-.registration__button {
-  max-width: 490px;
-  width: 100%;
-  height: 60px;
-  background: #4370cc;
-  border-radius: 53px;
-  margin: auto;
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+.input__email{
+    background: #FFFFFF;
+    border-radius: 53px;
+    max-width: 352px;
+    width: 100%;
+    padding: 18px 26px;
+    color: #808080;
+    border: none;
+    outline: none;
 }
-.registrtion__h1 {
-  text-align: center;
-  font-size: 16px;
-  line-height: 19px;
-  color: #6b6b6b;
-  margin: 10px 0;
+.login__password{
+    margin-top: 30px;
+    position: relative;
 }
-.from__google {
-  background: #84a8f1;
-  margin-top: 0;
+.login__pass{
+    margin-top: 30px;
+    position: relative;
 }
-.bottom__text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 450px;
-  margin: auto;
-  margin-top: 80px;
+.login__eyes{
+    position: absolute;
+    right: 33%;
+    top: 28%;
 }
-.red__line__block {
-  width: 20px;
-  height: 58px;
-  background-color: #e52e2e;
-  border-radius: 10px;
+.login__btn{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #4370CC;
+    border-radius: 53px;
+    border: none;
+    margin-top: 46px;
+    cursor: pointer;
 }
-.bottom__p {
-  font-size: 12px;
-  line-height: 14px;
-  margin-left: 10px;
+.login__text{
+    margin: 16px 0;
 }
-.registration__block {
-  position: relative;
+.login__google{
+    position: relative;
+    cursor: pointer;
 }
-.password__img {
-  position: absolute;
-  top: 18px;
-  right: 30px;
-  cursor: pointer;
+.login__google--mail{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #84A8F1;
+    border-radius: 53px;
+    border: none;
 }
-.forgot__password {
-    margin-right: 10px;
-  font-size: 12px;
-  line-height: 14px;
-  color: #9a9999;
-  margin-top: 30px;
-  display: flex;
-  justify-content: flex-end;
+.login__google--logo{
+    width: 78px;
+    position: absolute;
+    top: 15%;
+    left: 24%;
 }
+

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dentist KG</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__menu">
+          <div class="header__logo">
+            <a href="#" class="header__logo--link">
+              <img src="./image/headerlogo.png" alt="Logo" class="main__logo" />
+            </a>
+          </div>
+          <a href="list_of_dentist.html" class="header__link">Врачи</a>
+          <a href="list_of_clinics.html" class="header__link">Клиники</a>
+          <a href="#categor" class="header__link">Категории</a>
+          <a href="registration.html" class="header__link">Регистрация</a>
+          <a href="#important__link" class="header__link">Помощь</a>          
+          <div class="header__menu--content">
+            <ul class="header__items">
+                <a href="login2.html" class="header__link header__border">Личный кабинет</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link"
+                  ><img
+                    src="./image/home.svg"
+                    alt=""
+                    class="header__home--logo"
+                /></a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link"
+                  ><img
+                    src="./image/flag.png"
+                    alt=""
+                    class="header__home--logo"
+                /></a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Ru</a>
+              </li>
+            </ul>
+            
+          </div>
+          <div class="burger">
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+        </div>
+        </nav>
+      </div>
+    </header>
+    <section class="welcom">
+      <div class="container">
+        <div class="welcom__content">
+          <h1 class="welcom__title">Лучший стоматолог в один клик</h1>
+          <div class="welcom__seach">
+            <div class="welcom__input--block">
+              <input
+                type="text"
+                class="welcom__input"
+                placeholder="Врачи, клиники или услуги "
+              />
+              <div class="welcom__loop"></div>
+            </div>
+            <a href="#" class="welcom__bnt">Найти</a>
+          </div>
+          <div class="welcom__bottom">
+            <div class="welcom__bottom--bg">
+              <img
+                src="./image/welcomcity.png"
+                alt=""
+                class="welcom__bottom--img"
+              />
+            </div>
+            <p class="welcom__text">110 Клиник работают с нами</p>
+          </div>
+          <div class="welcom__bottom">
+            <div class="welcom__bottom--bg">
+              <img
+                src="./image/welcomdan.png"
+                alt=""
+                class="welcom__bottom--img"
+              />
+            </div>
+            <p class="welcom__text">589 Стоматологов работают с нами</p>
+          </div>
+          <div class="welcom__bottom">
+            <div class="welcom__bottom--bg">
+              <img
+                src="./image/welcomteath.png"
+                alt=""
+                class="welcom__bottom--img"
+              />
+            </div>
+            <p class="welcom__text">20 000 Красивых улыбок</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="categories" id="categor">
+      <div class="categories__container">
+        <h2 class="categories__title">Категория стоматологов</h2>
+        <div class="categories__blocks">
+          <div class="categories__block">
+            <div class="categories__image">
+              <img src="./image/imgirl.png" alt="" class="categories__img" />
+              <div class="categories__circle">
+                <img
+                  src="./image/circleimg1.png"
+                  alt=""
+                  class="categories__circle--img"
+                />
+              </div>
+            </div>
+            <div class="categories__bottom">
+              <p class="categories__text">Детский стоматолог</p>
+              <img
+                src="./image/catarrow.png"
+                alt=""
+                class="categories__arrow"
+              />
+            </div>
+          </div>
+          <div class="categories__block">
+            <div class="categories__image">
+              <img src="./image/catimg2.png" alt="" class="categories__img" />
+              <div class="categories__circle">
+                <img
+                  src="./image/catimg22.png"
+                  alt=""
+                  class="categories__circle--img"
+                />
+              </div>
+            </div>
+            <div class="categories__bottom">
+              <p class="categories__text">Терапевт</p>
+              <img
+                src="./image/catarrow.png"
+                alt=""
+                class="categories__arrow"
+              />
+            </div>
+          </div>
+          <div class="categories__block">
+            <div class="categories__image">
+              <img src="./image/catimg3.png" alt="" class="categories__img" />
+              <div class="categories__circle">
+                <img
+                  src="./image/catimg33.png"
+                  alt=""
+                  class="categories__circle--img"
+                />
+              </div>
+            </div>
+            <div class="categories__bottom">
+              <p class="categories__text">Имплантолог</p>
+              <img
+                src="./image/catarrow.png"
+                alt=""
+                class="categories__arrow"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="categories__blocks">
+          <div class="categories__block">
+            <div class="categories__image">
+              <img src="./image/catimg4.png" alt="" class="categories__img" />
+              <div class="categories__circle">
+                <img
+                  src="./image/catimg44.png"
+                  alt=""
+                  class="categories__circle--img"
+                />
+              </div>
+            </div>
+            <div class="categories__bottom">
+              <p class="categories__text">Стоматолог Ортадонт</p>
+              <img
+                src="./image/catarrow.png"
+                alt=""
+                class="categories__arrow"
+              />
+            </div>
+          </div>
+          <div class="categories__block">
+            <div class="categories__image">
+              <img src="./image/catimg5.png" alt="" class="categories__img" />
+              <div class="categories__circle">
+                <img
+                  src="./image/catimg55.png"
+                  alt=""
+                  class="categories__circle--img"
+                />
+              </div>
+            </div>
+            <div class="categories__bottom">
+              <p class="categories__text">Парадонтолог стоматолог</p>
+              <img
+                src="./image/catarrow.png"
+                alt=""
+                class="categories__arrow"
+              />
+            </div>
+          </div>
+          <div class="categories__block">
+            <div class="categories__image">
+              <img src="./image/catimg6.png" alt="" class="categories__img" />
+              <div class="categories__circle">
+                <img
+                  src="./image/catimg66.png"
+                  alt=""
+                  class="categories__circle--img"
+                />
+              </div>
+            </div>
+            <div class="categories__bottom">
+              <p class="categories__text">Хирург</p>
+              <img
+                src="./image/catarrow.png"
+                alt=""
+                class="categories__arrow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="aboutus">
+      <div class="aboutus__container">
+        <div class="aboutus__content">
+            <div class="aboutus__texts">
+                <h3 class="about__title">О нас</h3>
+                <p class="aboutus__text">
+                  <span class="aboutus__word"> My Dentist</span> - платформа для всех, кто хочет быстро найти надежного
+                  стоматолога, также для самих стоматологов,которые хотят продовать
+                  свои услуги онлайн.Мы хотим увеличивать количество счастливых
+                  людей. Мы улучшаем качество их жизни, экономя время и деньги,
+                  позволяя больше путешествовать, открывать мир и проводить время с
+                  любимыми. 
+                  <span class="aboutus__word"> My Dentist</span> – онлайн-сервис по поиску и записи к врачам в
+                  Кыргызстан
+                </p>
+    
+                <div class="aboutus__text--bottom">
+                  <p class="aboutus__text aboutus__word">На сайте вы можете:</p>
+                  <p class="aboutus__text">
+                    - записаться на прием к интересующему врачу; -получить
+                    онлайн-консультацию без посещения врача;
+                  </p>
+                  <p class="aboutus__text">
+                    - оставить отзыво враче, которого посетили.
+                  </p>
+                  <!-- <div class="aboutus__service">
+                    <div class="aboutus__record">
+                        <div class="aboutus__listimg">
+                            <img src="./image/calendar-clock .png" alt="" class="aboutus__listimage">
+                        </div>
+        
+                        <div class="aboutus__record--text">Записаться на прием</div>
+                    </div>
+                    <div class="aboutus__record">
+                        <div class="aboutus__listimg">
+                            <img src="./image/coomment.png" alt="" class="aboutus__listimage">
+                        </div>
+        
+                        <div class="aboutus__record--text">Отзыв</div>
+                    </div>
+                    <div class="aboutus__record">
+        
+                        <div class="aboutus__listimg">
+                            <img src="./image/onlineconsalting.png" alt="" class="aboutus__listimage">
+                        </div>
+        
+                        <div class="aboutus__record--text">
+                            Онлайн-консультация</div>
+                    </div>
+                </div> -->
+      
+                </div>
+              </div>
+            <div class="aboutus__image">
+
+            <img
+              src="./image/aboutusmainimg.png"
+              alt=""
+              class="aboutus__doctor--img"
+            />
+            <div class="aboutus__images">
+                <div class="aboutus__img"><img src="./image/aboutusimagepng.png" alt="" class="aboutus__ph"></div>
+                <div class="aboutus__img"><img src="./image/aboutusimgaa.png" alt="" class="aboutus__ph"></div>
+            </div>
+           
+          </div>   
+        </div>
+      </div>
+    </section>
+    <seciton class="dentist">
+      <div class="dendist__contaier">
+        <div class="dentis__content">
+          <h4 class="dentis__title">Лучшие стоматологи</h4>
+          <div class="dentis__block">
+            <div class="dentist__review">
+              <div class="dentist__image">
+                <img src="./image/den1.png" alt="" class="dentist__img" />
+              </div>
+              <div class="dentist__fullname">Вишнёв Александр Фёдорович</div>
+              <div class="dentist__estimate">
+                <div class="dentist__estimate--text">5.0</div>
+
+                <img
+                  src="./image/star.png"
+                  alt=""
+                  class="dentist__estimate--stars"
+                />
+              </div>
+            </div>
+            <div class="dentist__review">
+              <div class="dentist__image">
+                <img src="./image/den2.png" alt="" class="dentist__img" />
+              </div>
+              <div class="dentist__fullname">Вишнёв Александр Фёдорович</div>
+              <div class="dentist__estimate">
+                <div class="dentist__estimate--text">5.0</div>
+
+                <img
+                  src="./image/star.png"
+                  alt=""
+                  class="dentist__estimate--stars"
+                />
+              </div>
+            </div>
+            <div class="dentist__review">
+              <div class="dentist__image">
+                <img src="./image/den3.png" alt="" class="dentist__img" />
+              </div>
+              <div class="dentist__fullname">Вишнёв Александр Фёдорович</div>
+              <div class="dentist__estimate">
+                <div class="dentist__estimate--text">4.5</div>
+
+                <img
+                  src="./image/star4.5.png"
+                  alt=""
+                  class="dentist__estimate--stars"
+                />
+              </div>
+            </div>
+            <div class="dentist__review">
+              <div class="dentist__image">
+                <img src="./image/den4.png" alt="" class="dentist__img" />
+              </div>
+              <div class="dentist__fullname">Вишнёв Александр Фёдорович</div>
+              <div class="dentist__estimate">
+                <div class="dentist__estimate--text">4.5</div>
+
+                <img
+                  src="./image/star4.5.png"
+                  alt=""
+                  class="dentist__estimate--stars"
+                />
+              </div>
+            </div>
+            <div class="dentist__review">
+              <div class="dentist__image">
+                <img src="./image/den5.png" alt="" class="dentist__img" />
+              </div>
+              <div class="dentist__fullname">Вишнёв Александр Фёдорович</div>
+              <div class="dentist__estimate">
+                <div class="dentist__estimate--text">4.5</div>
+
+                <img
+                  src="./image/star4.5.png"
+                  alt=""
+                  class="dentist__estimate--stars"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="dentist__arrows">
+            <div class="dentist__arrow--left">
+              <img
+                src="./image/leftarrow.png"
+                alt=""
+                class="dentist__arrow--img"
+              />
+            </div>
+            <div class="dentist__arrow--right">
+              <img
+                src="./image/rightarrow.png"
+                alt=""
+                class="dentist__arrow--img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </seciton>
+    <section class="important" id="important__link">
+      <div class="important__container">
+        <div class="important__mainblock">
+          <div class="important__dentist">
+            <div class="important__img">
+              <img
+                src="./image/importantimg.png"
+                alt=""
+                class="important__dentist"
+              />
+            </div>
+            <p class="important__fullname">Вишнёв Александр Фёдорович</p>
+          </div>
+          <div class="important__texts">
+            <h5 class="important__title">Вам установили брекеты. Что важно?</h5>
+            <p class="important__text">
+              Если плохо чистить зубы, на эмали вокруг брекетов скапливаются
+              остатки пищи и мягкий зубной налёт. Это делает эмаль более
+              уязвимой и создаёт условия для размножения микробов, вызывающих
+              кариес... <a href="#" class="important__link">читать дальше</a>
+            </p>
+            <a href="#" class="important__btn">Прочитать статью</a>
+          </div>
+        </div>
+        <div class="important__arrow">
+          <img
+            src="./image/rightarrow.png"
+            alt=""
+            class="dentist__arrow--img"
+          />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__mainblock">
+          <div class="footer__logos">
+            <div class="footer__logo">
+              <img
+                src="./image/footerlogo.png"
+                alt=""
+                class="footer__logo-img"
+              />
+            </div>
+            <div class="footer__socials">
+              <a href="#" class="footer__social"
+                ><img src="./image/wiber.svg" alt="" class="footer__wiber"
+              /></a>
+              <a href="" class="footer__social"
+                ><img src="./image/facebook.svg" alt="" class="footer__facbook"
+              /></a>
+              <a href="" class="footer__social"
+                ><img
+                  src="./image/telegram.svg"
+                  alt=""
+                  class="footer__telegram"
+              /></a>
+              <a href="" class="footer__social"
+                ><img
+                  src="./image/intagram.svg"
+                  alt=""
+                  class="footer__instagram"
+              /></a>
+            </div>
+          </div>
+          <div class="footer__left">
+            <ul class="footer__items">
+              Пациент
+              <li class="footer__item">
+                <a href="#" class="footer__link">Врачи</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Медцентры</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Услуги</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Специализации</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Типы медцентров</a>
+              </li>
+            </ul>
+            <ul class="footer__items">
+              Информация
+              <li class="footer__item">
+                <a href="#" class="footer__link">Задать вопрос врачу</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Cправочник заболеваний</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Статьи</a>
+              </li>
+            </ul>
+
+            <ul class="footer__items">
+              О нас
+              <li class="footer__item">
+                <a href="#" class="footer__link">О проекте</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Сотрудничество</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Контакты</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Правовая информация</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <ul class="footer__items">
+              Сообщите нам
+              <div class="footer__input">
+                <input type="text" class="footer__comment" placeholder="Имя" />
+                <input
+                  type="text"
+                  class="footer__comment"
+                  placeholder="Комметарий"
+                />
+                <button class="footer__btn">Отправить</button>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,53 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/login.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap"
       rel="stylesheet"
     />
-    <title>LOGIN</title>
+    <title>Log in</title>
   </head>
   <body>
-    <div class="container">
-      <div class="registration">
-        <div class="registration__logo">
-          <img src="./img/registration__logo.svg" alt="" />
-        </div>
-        <h1 class="registration__h1">Авторизация</h1>
-        <div class="registration__input__button">
-          <input
-            class="registration__input"
-            type="email"
-            placeholder="Адрес электронной почты"
-          />
-          <div class="registration__block">
-          <input
-            class="registration__input"
-            type="password"
-            placeholder="Пароль"
-          />
-          <img class="password__img" src="./img/registration__password__check__icon.svg" alt="">
-        </div>
-        <p class="forgot__password">Забыли пароль?</p>
-        </div>
-        <div class="registration__button">Зарегистрироваться</div>
-        <h1 class="registrtion__h1">или</h1>
-        <div class="registration__button from__google">
-          <img src="./img/registration__from__google.svg" alt="" />
-          Зарегистрироваться
-        </div>
-        <div class="bottom__text">
-            <div class="red__line__block"></div>
-          <p class="bottom__p">
-            Введенные данные надежно зашифрованы и находятся в безопасности.
-            Пожалуйста, не передавайте никому данные для входа в систему.
-          </p>
+    <section class="login">
+      <div class="login__container">
+        <div class="login__content">
+          <h1 class="login__title">Войти</h1>
+          <div class="login__email">
+            <input
+              type="text"
+              class="input__email"
+              placeholder="Электронная почта"
+            />
+          </div>
+          <div class="login__password">
+            <input type="text" class="input__email" placeholder="Пароль" />
+            <img src="./image/eyes.png" alt="" class="login__eyes" />
+          </div>
+          <div class="login__pass">
+            <input
+              type="text"
+              class="input__email"
+              placeholder="Повторить пароль"
+            />
+            <img src="./image/eyes.png" alt="" class="login__eyes" />
+          </div>
+          <button class="login__btn">Зарегистрироваться</button>
+          <p class="login__text">или</p>
+          <div class="login__google">
+            <img src="./image/google.png" alt="" class="login__google--logo" />
+            <a class="login__google--mail">Войти через Google</a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
