@@ -66,14 +66,29 @@ body {
   border-radius: 5px;
   z-index: 1;
 }
+.filter__button__icon{
+  position: relative;
+}
+.input__filter__icon{
+  position: absolute;
+  right: 2px;
+  top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 .input__filter__category{
   width: 156px;
   height: 36px;
   margin-left: -5px;
   text-align: center;
-  background: url(../img/category__filter.svg) no-repeat scroll 126px 6px;
   border-radius: 5px;
   border: 1px solid #D8D8D8;
+  background-color: #fff;
 }
 .search__input__button {
   max-width: 550px;

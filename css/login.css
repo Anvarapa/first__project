@@ -53,8 +53,8 @@ body {
   color: #333333;
   outline: none;
 }
-.registration__input:first-child{
-   background: none;
+.registration__input:first-child {
+  background: none;
 }
 /*Кнопка для регистрации*/
 .registration__button {
@@ -64,7 +64,7 @@ body {
   background: #4370cc;
   border-radius: 53px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,36 +77,44 @@ body {
   color: #6b6b6b;
   margin: 10px 0;
 }
-.from__google{
-    background: #84A8F1;
-    margin-top: 0;
-    
+.from__google {
+  background: #84a8f1;
+  margin-top: 0;
 }
-.bottom__text{
+.bottom__text {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 450px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 80px;
 }
-.red__line__block{
+.red__line__block {
   width: 20px;
   height: 58px;
-  background-color: #E52E2E;
+  background-color: #e52e2e;
   border-radius: 10px;
 }
-.bottom__p{
+.bottom__p {
   font-size: 12px;
-line-height: 14px;
-margin-left: 10px;
+  line-height: 14px;
+  margin-left: 10px;
 }
-.registration__block{
+.registration__block {
   position: relative;
 }
-.password__img{
+.password__img {
   position: absolute;
   top: 18px;
   right: 30px;
   cursor: pointer;
+}
+.forgot__password {
+    margin-right: 10px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #9a9999;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
 }

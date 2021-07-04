@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(../img/register__dentist__background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dentist__registration {
+  max-width: 620px;
+  width: 100%;
+  background: rgba(228, 228, 228, 0.632);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 34px;
+  padding: 32px 92px 40px 140px;
+}
+.dentist__registration__h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #4370cc;
+}
+.dentist__registration__p {
+  font-size: 13px;
+  line-height: 19px;
+  margin-top: 8px;
+}
+.full__name {
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.full__name__input {
+  max-width: 200px;
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 0.1px solid #9c9c9c;
+  padding-left: 26px;
+  outline: none;
+}
+.change__input {
+  max-width: 310px;
+  width: 100%;
+}
+.password__check {
+  position: relative;
+  max-width: 310px;
+  width: 100%;
+}
+.password__check__img {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.download__file {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #434343;
+  text-align: center;
+  margin-top: 52px;
+}
+
+/*ADD FILE*/
+.add__file {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 22px;
+}
+.dentist__file {
+  max-width: 100px;
+  width: 100%;
+  height: 116px;
+  background-color: #96b8fdfd;
+  margin-right: 32px;
+  border-radius: 10px;
+  font-size: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.dentist__file:last-child {
+  margin-right: 0;
+}
+.dentist__p__flex {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dentist__file__p {
+  margin-right: 70px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #434343;
+}
+.dentist__file__p:last-child {
+  margin-right: 0;
+}
+
+.button__for__registration{
+    max-width: 492px;
+    width: 100%;
+    height: 60px;
+    background-color: #96b8fdfd;
+    display: block;
+    margin: 100px auto;
+    border-radius: 53px;
+    border:none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
